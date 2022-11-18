@@ -1,0 +1,132 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-size: cover;
+}
+
+header {
+    background-color:whitesmoke;
+    background-size: cover;
+}
+
+#logo {
+    height: 2%;
+    width: 8%;
+    margin-left: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: left;
+}
+.navbar-expand-lg {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.nav-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    text-decoration: none;
+    /* border: 1px solid rebeccapurple; */
+    padding: 10px;
+    margin: 5px;
+}
+.carousel-inner{
+    height: 80%;
+    margin-bottom: 10%; 
+}
+#myCarouse{
+    width: 100;
+    height: 80%;
+    animation: solid 5s infinite;
+}
+.card{
+    display:inline-block;
+    align-items: center;
+    margin: 2% 2% 2% 2%;
+
+}   
+.card-body{
+    background-color: gainsboro;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.card-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+.my_login {
+    border: 1px solid red;
+    align-items: middle;
+    margin-top: 300px;
+    background-color: orange;
+    border: solid 2px white;
+    height: 30em;
+    width: 25em;
+    padding: 60px;
+    margin: 20px 40px;
+}
+
+.my_login h2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#logg {
+    background-color: rgb(25, 73, 205);
+    width: 100%;
+    border: solid 2px white;
+    color: white;
+    height: 3em;
+    width: 8em;
+}
+.flexbox{
+    display:block;
+    margin-left:35%;
+    margin-right:auto;
+    align-items: center;
+    justify-content: center;
+}
+.vh-100{
+    background-size: cover;
+}
+.d-flex{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-body p-md-5{
+    border: solid 2px white;
+}
+.container1{
+    width: 100%;
+    height: 5em;
+    background-color:darkblue;
+    margin-top: 5%; 
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    margin-top: 2%;
+    text-align: center;
+}
+.card1{
+    border: solid 2px white;
+    padding: 4px 2px 2px 2px;
+    justify-content: center;
+}
+.box{
+    margin: 10%;
+    align-items: center;
+    justify-content: center;  
+}
+.box1{
+    margin: 10% 2% 5% 2%;
+    justify-content: center;
+}
